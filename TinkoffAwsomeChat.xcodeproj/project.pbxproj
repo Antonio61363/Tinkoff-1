@@ -35,7 +35,7 @@
 		3A02D79A220CD0FC007EB8AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3A4354E1222400E100340AB0 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		3A4354E32224025E00340AB0 /* Converasion.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Converasion.storyboard; sourceTree = "<group>"; };
-		3AF8C9D7222406630097C204 /* ConversationTableViewCell.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; path = ConversationTableViewCell.swift; sourceTree = "<group>"; };
+		3AF8C9D7222406630097C204 /* ConversationTableViewCell.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; name = ConversationTableViewCell.swift; path = "../../../Documents/GitHub/Tinkoff-1/TinkoffAwsomeChat/ConversationTableViewCell.swift"; sourceTree = "<group>"; };
 		3AF8C9D9222406B30097C204 /* ConversationsListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversationsListViewController.swift; sourceTree = "<group>"; };
 		3AF8C9DB2224070B0097C204 /* DialogTableViewCellInside.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DialogTableViewCellInside.swift; sourceTree = "<group>"; };
 		3AF8C9DD2224072C0097C204 /* DialogTableViewCellOutside.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DialogTableViewCellOutside.swift; sourceTree = "<group>"; };
