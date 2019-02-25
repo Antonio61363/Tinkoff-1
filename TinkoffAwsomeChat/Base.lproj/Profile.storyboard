@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="GYB-KA-UMs">
+    <device id="retina4_0" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="8bl-cR-ezT">
+            <objects>
+                <navigationController storyboardIdentifier="Profiled" useStoryboardIdentifierAsRestorationIdentifier="YES" id="GYB-KA-UMs" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="AAe-mS-hrV">
+                        <rect key="frame" x="0.0" y="20" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="4D2-xQ-CxR"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vXM-jJ-ceE" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-782" y="117"/>
+        </scene>
+        <!--Profile-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController useStoryboardIdentifierAsRestorationIdentifier="YES" id="BYZ-38-t0r" customClass="ProfileViewController" customModule="TinkoffAwsomeChat" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="placeholder-user" translatesAutoresizingMaskIntoConstraints="NO" id="osg-Nm-p4q">
+                                <rect key="frame" x="16" y="64" width="288" height="288"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" priority="800" constant="288" id="Eqs-K1-3NC"/>
+                                    <constraint firstAttribute="width" secondItem="osg-Nm-p4q" secondAttribute="height" multiplier="1:1" id="kv9-91-WoI"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cQq-Fd-gsq">
+                                <rect key="frame" x="16" y="360" width="288" height="31.5"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="Антон Чернышев">
+                                        <attributes>
+                                            <font key="NSFont" size="24" name="Thonburi-Bold"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="251" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="RZn-py-yud">
+                                <rect key="frame" x="16" y="468.5" width="288" height="35.5"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="tintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="Редактировать">
+                                            <attributes>
+                                                <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <font key="NSFont" size="18" name="Thonburi"/>
+                                                <font key="NSOriginalFont" size="18" name="Thonburi"/>
+                                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </state>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" verticalCompressionResistancePriority="751" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Kej-c7-fTK">
+                                <rect key="frame" x="16" y="399.5" width="288" height="87.5"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="👨‍💻">
+                                        <attributes>
+                                            <font key="NSFont" size="14" name="AppleColorEmoji"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="Люблю">
+                                        <attributes>
+                                            <font key="NSFont" size="14" name="Thonburi"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content=" ">
+                                        <attributes>
+                                            <font key="NSFont" size="14" name="Apple-Chancery"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="программировать">
+                                        <attributes>
+                                            <font key="NSFont" size="14" name="Thonburi"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content" base64-UTF8="YES">
+Cg
+</string>
+                                        <attributes>
+                                            <font key="NSFont" size="14" name="Apple-Chancery"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="👨‍🎓">
+                                        <attributes>
+                                            <font key="NSFont" size="14" name="AppleColorEmoji"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="Изучать">
+                                        <attributes>
+                                            <font key="NSFont" size="14" name="Thonburi"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content=" ">
+                                        <attributes>
+                                            <font key="NSFont" size="14" name="Apple-Chancery"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="новые">
+                                        <attributes>
+                                            <font key="NSFont" size="14" name="Thonburi"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content=" ">
+                                        <attributes>
+                                            <font key="NSFont" size="14" name="Apple-Chancery"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="технологи">
+                                        <attributes>
+                                            <font key="NSFont" size="14" name="Thonburi"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content" base64-UTF8="YES">
+Cg
+</string>
+                                        <attributes>
+                                            <font key="NSFont" size="14" name="Apple-Chancery"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="👨‍🏫">
+                                        <attributes>
+                                            <font key="NSFont" size="14" name="AppleColorEmoji"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="Помогаю">
+                                        <attributes>
+                                            <font key="NSFont" size="14" name="Thonburi"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content=" ">
+                                        <attributes>
+                                            <font key="NSFont" size="14" name="Apple-Chancery"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="развиваться">
+                                        <attributes>
+                                            <font key="NSFont" size="14" name="Thonburi"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content=" ">
+                                        <attributes>
+                                            <font key="NSFont" size="14" name="Apple-Chancery"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">другим
+</string>
+                                        <attributes>
+                                            <font key="NSFont" size="14" name="Thonburi"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageSizeForAccessibilityContentSizeCategory="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MCM-fe-yVu">
+                                <rect key="frame" x="224" y="273" width="80" height="79"/>
+                                <color key="backgroundColor" red="0.025072689700000001" green="0.0" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" image="slr-camera-2-xxl"/>
+                                <connections>
+                                    <action selector="profilePictureChoose:" destination="BYZ-38-t0r" eventType="touchUpInside" id="uQ2-5H-NkK"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="osg-Nm-p4q" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="0V2-xM-g3M"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Kej-c7-fTK" secondAttribute="trailing" constant="16" id="1Hw-yx-JxY"/>
+                            <constraint firstItem="osg-Nm-p4q" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="9A9-qf-Ftv"/>
+                            <constraint firstItem="MCM-fe-yVu" firstAttribute="top" secondItem="osg-Nm-p4q" secondAttribute="bottom" constant="-79" id="B0X-DT-ZmT"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="MCM-fe-yVu" secondAttribute="trailing" constant="16" id="BXa-Ry-zOc"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="RZn-py-yud" secondAttribute="bottom" constant="20" id="CsG-zp-xYX"/>
+                            <constraint firstItem="cQq-Fd-gsq" firstAttribute="top" secondItem="MCM-fe-yVu" secondAttribute="bottom" constant="8" symbolic="YES" id="Gik-fK-PBa"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="osg-Nm-p4q" secondAttribute="trailing" constant="16" id="L24-R9-BYw"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="RZn-py-yud" secondAttribute="trailing" constant="16" id="P8i-X4-xbX"/>
+                            <constraint firstItem="Kej-c7-fTK" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="PNc-wF-48I"/>
+                            <constraint firstItem="MCM-fe-yVu" firstAttribute="leading" secondItem="osg-Nm-p4q" secondAttribute="trailing" constant="-80" id="Vv0-AY-C5F"/>
+                            <constraint firstItem="Kej-c7-fTK" firstAttribute="top" secondItem="cQq-Fd-gsq" secondAttribute="bottom" constant="8" symbolic="YES" id="b5d-Kf-5N2"/>
+                            <constraint firstItem="cQq-Fd-gsq" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="eMf-EF-r8G"/>
+                            <constraint firstItem="RZn-py-yud" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="mo2-kx-9SW"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="cQq-Fd-gsq" secondAttribute="trailing" constant="16" id="q6F-Vb-O9a"/>
+                            <constraint firstItem="cQq-Fd-gsq" firstAttribute="top" secondItem="osg-Nm-p4q" secondAttribute="bottom" constant="8" symbolic="YES" id="yLQ-Cj-XmX"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <toolbarItems/>
+                    <navigationItem key="navigationItem" title="Profile" id="ZfG-ra-bQn">
+                        <barButtonItem key="backBarButtonItem" title="Back" id="fVH-51-8sN"/>
+                        <barButtonItem key="leftBarButtonItem" title="Back" id="0qv-x9-Qgz">
+                            <connections>
+                                <action selector="back:" destination="BYZ-38-t0r" id="Fgb-gA-Iow"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
+                    <connections>
+                        <outlet property="editButton" destination="RZn-py-yud" id="6rA-GK-arm"/>
+                        <outlet property="profileImage" destination="osg-Nm-p4q" id="3ZO-ho-i6S"/>
+                        <outlet property="profilePictureChooser" destination="MCM-fe-yVu" id="fNu-Hy-hpG"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="131.25" y="117.25352112676056"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="placeholder-user" width="600" height="600"/>
+        <image name="slr-camera-2-xxl" width="256" height="256"/>
+    </resources>
+</document>

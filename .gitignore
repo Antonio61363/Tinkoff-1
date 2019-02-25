@@ -66,3 +66,13 @@ fastlane/report.xml
 fastlane/Preview.html
 fastlane/screenshots/**/*.png
 fastlane/test_output
+TinkoffAwsomeChat.xcodeproj/ConversationsListViewController.swift
+TinkoffAwsomeChat.xcodeproj/ConversationTableViewCell.swift
+TinkoffAwsomeChat.xcodeproj/DialogTableViewCellInside.swift
+TinkoffAwsomeChat.xcodeproj/DialogTableViewCellOutside.swift
+TinkoffAwsomeChat.xcodeproj/DialogTableViewController.swift
+TinkoffAwsomeChat.xcodeproj/ProfileViewController.swift
+TinkoffAwsomeChat/ConversationTableViewCell.swift
+TinkoffAwsomeChat/DialogTableViewCellInside.swift
+TinkoffAwsomeChat/DialogTableViewCellOutside.swift
+TinkoffAwsomeChat/DialogTableViewController.swift
